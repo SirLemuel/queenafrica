@@ -33,6 +33,7 @@ const LayoutWrapper = styled.div`
     flex-direction: column;
     margin: 0 auto;
     min-height: 100vh;
+    padding: 0 5%;
 `
 
 const MainElement = styled.main`
