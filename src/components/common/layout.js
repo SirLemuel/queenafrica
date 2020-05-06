@@ -5,7 +5,7 @@ import { Grid } from '@material-ui/core'
 
 
 import Header from "./header"
-import Footer from "./Footer"
+import Footer from "./footer"
 
 import "../layout.css"
 
