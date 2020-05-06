@@ -4,7 +4,6 @@ import Grid from '@material-ui/core/Grid';
 import YouTube from 'react-youtube';
 
 
-
 const opts = {
     height: '100%',
     width: '100%',
@@ -30,6 +29,9 @@ const videoItems = [
     { videoId: "uHKbLAmy-kg", videoTitle: "Hot Twerk || Twerking Ass at home || Sanya Julee" },
     { videoId: "Z5xoFynUgY0", videoTitle: "Shaking Booty in garden || thrill your moods" },
     { videoId: "eDYTb8pDmN8", videoTitle: "Crazy Quarantine Twerk" },
+    { videoId: "toXwIuXePNo", videoTitle: "ASIAN BOOTY CLAP?!?! | BLUE MAXI DRESS TWERK & BOOTY CLAP | HOW TO" },
+    { videoId: "34ycF56vMBo", videoTitle: "Asian Twerk Tube" },
+    { videoId: "Hq0lnBu6CRc", videoTitle: "2020's BEST TWERK COMPILATION (18+)" },
 ]
 
 
