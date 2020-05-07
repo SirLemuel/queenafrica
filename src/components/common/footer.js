@@ -3,9 +3,9 @@ import styled from 'styled-components'
 
 import FooterLogo from '../../images/bootyenvy-logo-2.png'
 
-import InstagramIcon from '../../assets/instagram.svg'
-import FacebookIcon from '../../assets/facebook.svg'
-import YouTubeIcon from '../../assets/youtube.svg'
+import InstagramIcon from 'src/assets/svg/instagram.svg'
+import FacebookIcon from 'src/assets/svg/facebook.svg'
+import YouTubeIcon from 'src/assets/svg/youtube.svg'
 
 
 
@@ -37,7 +37,7 @@ const FooterWrapper = styled.footer `
     border-top: 1px solid rgb(21, 23, 24);
     margin-top: 10%;
     width: 100%;
-    
+
     img {
         max-width: 450px;
     }

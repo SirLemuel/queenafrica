@@ -3,6 +3,9 @@ import styled from 'styled-components'
 import Helmet from 'react-helmet'
 import { Grid } from '@material-ui/core'
 
+import Favicon16 from '../../assets/favicon-16x16.png'
+import Favicon32 from '../../assets/favicon-32x32.png'
+import FaviconApple from '../../assets/apple-touch-icon.png'
 
 import Header from "./header"
 import Footer from "./footer"
@@ -14,6 +17,13 @@ import "../layout.css"
 const Layout = ({ children }) => {
 
   return (<Grid container spaces={3}>
+            <Helmet
+               link={[
+                  { rel: "icon", type: "image/png", sizes: "16x16", href: `${Favicon16}` },
+                  { rel: "icon", type: "image/png", sizes: "32x32", href: `${Favicon32}` },
+                  { rel: "apple-touch-icon", type: "image/x-icon", href: `${FaviconApple}` },
+                ]}
+            />
             <LayoutWrapper>
               <Header />
                 <MainElement>{children}</MainElement>

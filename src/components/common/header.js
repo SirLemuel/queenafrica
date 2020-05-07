@@ -6,10 +6,10 @@ import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (<HeaderWrapper>
                                         <nav>
-                                            <div><a href="">All Booty</a></div>
-                                            <div><a href="">Black Booty</a></div>
-                                            <div><a href="">White Booty</a></div>
-                                            <div><a href="">Latin Booty</a></div>
+                                            <div><a href="">All Videos</a></div>
+                                            <div><a href="">Workout</a></div>
+                                            <div><a href="">Dance</a></div>
+                                            <div><a href="">Twerk</a></div>
                                         </nav>
                                   </HeaderWrapper>)
 
@@ -21,7 +21,7 @@ const HeaderWrapper = styled.header`
     background: #000;
     height: 80px;
     width: 100%;
-    border-bottom: 1px solid rgb(21, 23, 24)  ;
+    border-bottom: 1px solid rgb(21, 23, 24);
     display: flex;
     justify-content: center;
     align-items: center;

@@ -22,5 +22,7 @@ const HeroWrapper = styled.div`
 
     img {
         margin-bottom: 0;
+        width: 100%;
+        max-width: 900px;
     }
 `
