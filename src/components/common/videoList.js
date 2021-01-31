@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import Grid from '@material-ui/core/Grid';
-import YouTube from 'react-youtube';
+import YouTube from 'react-youtube'; 
 
 
 const opts = {
     height: '100%',
     width: '100%',
     playerVars: { // https://developers.google.com/youtube/player_parameters
-        autoplay: 0,
-        controls: 0,
+        autoplay: false,
+        controls: true,
         modestbranding: 1,
         playsinline: 1,
         showInfo: 0,
@@ -18,29 +18,18 @@ const opts = {
 };
 
 const videoItems = [
-    { videoId: "MwFNdR01gDw", videoTitle: "🍑 Big BOOTY Twerk At Beach 🍑 || Sanya Julee" },
-    { videoId: "9pZ4saw5A_A", videoTitle: "Crazy Hot Latina Twerking" },
-    { videoId: "CEI_jwRYoiw", videoTitle: "Twerk Like a Pro" },
-
-    { videoId: "NHj1IPoL3ek", videoTitle: "Geri Hoops y Lucila Vit Twerking" },
-    { videoId: "fs8BAbQZ7-o", videoTitle: "Shake It (city girls twerk I.B.Mixxx) - IslandBoy Yayo x YayoDaRoadRunna" },
-
-    { videoId: "lCZYvvHGNs0", videoTitle: "Yota Poulidou Judge Solo | Twerk Battle Vol2" },
-    { videoId: "uHKbLAmy-kg", videoTitle: "Hot Twerk || Twerking Ass at home || Sanya Julee" },
-    { videoId: "Z5xoFynUgY0", videoTitle: "Shaking Booty in garden || thrill your moods" },
-    { videoId: "eDYTb8pDmN8", videoTitle: "Crazy Quarantine Twerk" },
-    { videoId: "toXwIuXePNo", videoTitle: "ASIAN BOOTY CLAP?!?! | BLUE MAXI DRESS TWERK & BOOTY CLAP | HOW TO" },
-    { videoId: "34ycF56vMBo", videoTitle: "Asian Twerk Tube" },
-    { videoId: "Hq0lnBu6CRc", videoTitle: "2020's BEST TWERK COMPILATION (18+)" },
+    { videoId: "OSVzWO_9wlE", videoTitle: "So Beautiful 'Short Film' Directed by Jamel Wiggins" },
+    { videoId: "FWnLuH_Runs", videoTitle: "Madeleine" },
+    { videoId: "lxeVpMRHUSg", videoTitle: "This Can't Be Love" },
+    { videoId: "5-RZFmZwXc4", videoTitle: "Anything But Love" },
 ]
-
 
 const VideoList = () => {
     const renderVideoItems = videoItems.map(videoItem => {
         
         const { videoId, videoTitle } = videoItem
 
-        return (<Grid item xs={12} sm={6} md={4}>
+        return (<Grid item xs={12} sm={6}>
                     <VideoWrapper>
                         <VideoFrame>
                             <YouTube videoId={videoId} opts={opts} />
@@ -113,7 +102,7 @@ const VideoFrame = styled.div`
     
     img, iframe {
         width: 100%;
-        min-height: 238px;
+        min-height: 400px;
 
         @media(max-width: 600px) {
             max-width: 100%;

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import FooterLogo from '../../images/bootyenvy-logo-2.png'
+import FooterLogo from '../../assets/qa-logo.png'
 
 import InstagramIcon from 'src/assets/svg/instagram.svg'
 import FacebookIcon from 'src/assets/svg/facebook.svg'
@@ -17,9 +17,9 @@ export const Footer = () => {
                     <img src={FooterLogo} />
                 </LogoContainer>
                 <ListElement>
-                    <ListItem><a href="https://www.facebook.com/bootyenvy" target="_blank"><FacebookIcon /></a></ListItem>
-                    <ListItem><a href="https://www.instagram.com/bootyenvyclub" target="_blank"><InstagramIcon /></a></ListItem>
-                    <ListItem><a href="https://www.youtube.com/bootyenvy" target="_blank"><YouTubeIcon /></a></ListItem>
+                    <ListItem><a href="https://www.facebook.com/myqueenafrica" target="_blank"><FacebookIcon /></a></ListItem>
+                    <ListItem><a href="https://www.instagram.com/myqueenafrica" target="_blank"><InstagramIcon /></a></ListItem>
+                    <ListItem><a href="https://www.youtube.com/myqueenafrica" target="_blank"><YouTubeIcon /></a></ListItem>
                 </ListElement>
             </FooterInner>
         </FooterWrapper>
@@ -54,7 +54,12 @@ const FooterInner = styled.div`
         justify-content: center;
     }
 `
-const LogoContainer = styled.div``
+const LogoContainer = styled.div`
+    img {
+        max-width: 150px;
+
+    }
+`
 const ListElement = styled.ul`
     width: 100%;
     display: flex;
